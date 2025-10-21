@@ -1,0 +1,59 @@
+#header {
+    background-color: #242527;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 48 48'%3E%3Cg fill='%23096f9d' fill-opacity='0.53'%3E%3Cpath d='M12 0h18v6h6v6h6v18h-6v6h-6v6H12v-6H6v-6H0V12h6V6h6V0zm12 6h-6v6h-6v6H6v6h6v6h6v6h6v-6h6v-6h6v-6h-6v-6h-6V6zm-6 12h6v6h-6v-6zm24 24h6v6h-6v-6z'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
+}
+
+#two.main.style2 {
+    position: relative;
+    background-image: url("images/studioghibli.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    z-index: 0;
+  }
+
+#two.main.style2::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 0;
+}
+
+#two.main.style2 .container {
+    position: relative;
+    z-index: 1;
+}
+  
+  
+#four.main.style2 {
+    position: relative;
+    background-image: url("images/studioghibli.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    z-index: 0;
+  }
+  
+#four.main.style2::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 0;
+}
+  
+#four.main.style2 .container {
+    position: relative;
+    z-index: 1;
+}
+
+#footer {
+    background-image:
+      url("images/overlay2.png"),
+      url("images/overlay4.svg"),
+      linear-gradient(135deg, #4b9cd3, #2a6ea0 70%);
+    background-attachment: fixed, fixed, fixed; 
+    background-size: auto, cover, cover;
+    color: #fff;
+}
